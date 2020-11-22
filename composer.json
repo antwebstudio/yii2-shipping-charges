@@ -1,0 +1,32 @@
+{
+    "name": "antweb/yii2-shipping-charges",
+    "authors": [
+        {
+            "name": "Hui Yang",
+            "email": "chy1988@antwebstudio.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+		{
+			"type": "composer",
+			"url": "https://packagist.antwebstudio.com"
+		}
+	],
+    "require": {
+        "antweb/yii2-cart": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+			"ant\\shipping\\" : "src",
+			"tests\\" : "tests"
+		}
+    },
+    "require-dev": {
+        "symfony/var-dumper": "5.x-dev"
+    }
+}
